@@ -1,0 +1,168 @@
+html {
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+}
+
+*, *:before, *:after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: inherit;
+}
+
+/* 全域設定 */
+.sticky {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+}
+
+.itemName, .topicTxt {
+  font-family: 'Noto Serif TC', serif;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.description {
+  z-index: 10;
+  letter-spacing: 1px;
+}
+
+.altPic {
+  opacity: .05;
+}
+
+/* --- */
+body {
+  font-family: 'Noto Sans TC', sans-serif;
+  color: #56411C;
+}
+
+.content {
+  position: relative;
+}
+
+/* 影片介紹、社群 */
+#mvSec {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+}
+
+.introMV {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  z-index: 1;
+  text-align: center;
+}
+
+.introMV video{
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  left: 0;
+  min-height: 100%;
+  min-height: 100vh;
+  min-width: 100%;
+  min-width: 100vw;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* --- */
+.info {
+  width: 100%;
+  position: relative;
+  z-index: 100;
+}
+
+/* logo */
+#logoSec {
+  top: -50vh;
+  z-index: 1;
+}
+
+/* 過渡背景、主題 */
+#scrollSec {
+  height: 100vh;
+  /* background: -moz-linear-gradient(top, rgba(211, 164, 104, 0) 0%, #d3a468 90%); */
+  /* FF3.6-15 */
+  /* background: -webkit-linear-gradient(top, rgba(211, 164, 104, 0) 0%, #d3a468 90%); */
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(211, 164, 104, 0) 0%, #d3a468 90%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  /* filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00d3a468', endColorstr='#d3a468',GradientType=0 ); */
+  /* IE6-9 */
+  display: flex;
+  display: -webkit-flex;
+  align-items: center;
+  -webkit-align-items: center;
+  -ms-align-items: center;
+  justify-content: center;
+  -webkit-justify-content: center;
+  -ms-justify-content: center;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-flow: row wrap;
+}
+
+#scrollSec .topic {
+  position: relative;
+  text-align: center;
+  color: #FBF6F0;
+  padding-top: 130px;
+}
+
+#scrollSec .topic .topicTxt {
+  margin-top: 80px;
+  margin-bottom: 0px;
+  font-size: 26px;
+}
+
+hr {
+  height: 3px!important;
+  opacity: 1!important;
+}
+
+/* 活動項目 */
+.activity {
+  background-color: #FFF2E2;
+  background-image: url(../img/bg-texture.png);
+  background-size: cover;
+  /* padding-top: 36px; */
+}
+
+/* 地圖 */
+.map {
+  background-color: #d3a468;
+  color: #FBF6F0;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+/* --- */
+footer {
+  padding-bottom: 5px;
+  min-height: 40px;
+  background-color: #d3a468;
+  color: #FBF6F0;
+  letter-spacing: 1px;
+  font-size: 18px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #FBF6F0;
+}
