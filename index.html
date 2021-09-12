@@ -28,6 +28,11 @@
         <div class="introMV">
           <video src="./mov/Intro.mp4" loop muted autoplay preload="auto"> </video>
         </div>
+        <div class="scroll_down">
+          <span class="m_scroll_arrows unu"></span>
+          <span class="m_scroll_arrows doi"></span>
+          <span class="m_scroll_arrows trei"></span>
+        </div>
         <header></header>
       </section>
 
@@ -102,7 +107,7 @@
               </div>
               <h1 class="itemName mb-3">孝親感恩成年禮</h1>
               <hr style="width: 300px; margin-top: 0;">
-              <p class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
+              <p id="adultTxt" class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
                 以「孝親雩春風、成年鑄德香」為主軸，融合古典佾舞、成年祭典禮儀與孝親儀軌，
                 呈現成年禮莊嚴且溫馨的氛圍，鼓勵加冠學子孝親感恩、尊師重道，進一步了解成年後自己應負之社會責任。  
               </p>
@@ -145,7 +150,7 @@
               </div>
               <h1 class="itemName mb-3">垃圾Out 健康In</h1>
               <hr style="width: 300px; margin-top: 0;">
-              <p class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
+              <p id="cleanTxt" class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
                 萬人淨山健行活動，一方面實現環保教育，愛護我們所居住的環境，另一方面也有助於身體健康；
                 登山路線全程約4.5公里，並準備非常豐富的摸彩獎品(包括液晶電視及腳踏車等)。
                 當天慈惠堂亦提供美味的平安齋，且為響應環保，敬請大家自備餐具，一同讓地球更加美麗。
@@ -181,7 +186,7 @@
               </div>
               <h1 class="itemName mb-3">保民遶境嘉年華</h1>
               <hr style="width: 300px; margin-top: 0;">
-              <p class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
+              <p id="tourTxt" class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
                 重達千斤的瑤池金母神轎，在數十輛藝閣花車、陣頭車護駕，以及眾人誠心扶持下出巡，具有驅邪納福、保境安民的宗教意義，
                 沿途不僅發放「母娘福袋」，並且開放信眾鑽轎底。
                 而除了廟會常見的神將、舞龍舞獅之外，還有相關團體精心打扮參與表演，形成另類的宗教嘉年華。
@@ -446,7 +451,7 @@
               </div>
               <h1 class="itemName mb-3">弘揚母愛音樂會</h1>
               <hr style="width: 300px; margin-top: 0;">
-              <p class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
+              <p id="arenaTxt" class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
                 在屬於母親的光輝五月裡，獻上一場融合母愛與時尚的溫馨音樂會。
                 節目中有孩童的純真表演、肅穆的宗教儀軌、藝人的恢諧逗趣，以及歌手的動聽曲目，
                 並公開表揚「慈悲」與「孝悌」楷模獲獎者，不僅弘揚母愛，更寓教於"樂"。
@@ -482,7 +487,7 @@
               </div>
               <h1 class="itemName mb-3">慈惠雅韻歌舞引</h1>
               <hr style="width: 300px; margin-top: 0;">
-              <p class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
+              <p id="danceTxt" class="description text-center fs-5 lh-base mt-3 mt-md-4 px-4 px-md-3">
                 松山慈惠堂舞蹈團、國樂團與合唱團，成立至今皆近二十載，致力於傳承民族文化、推廣才藝、淨化人心，團員們秉持對表演、歌唱的愛好與熱忱，
                 舉辦慈惠雅韻歌舞引，內容包括古典舞劇的演出，以及國樂演奏與合唱等表演項目，
                 以提升心靈美育並促進祥和的社會。
@@ -523,10 +528,10 @@
 
     <footer class="d-flex justify-content-center align-items-center">
       <div class="ps-2 d-flex justify-content-center align-items-center">
-        <span class="me-3">© <a href="https://www.sstht.org.tw" target="_blank">松山慈惠堂</a> All rights reserved.</span>
-        <a class="pe-1" href="https://www.facebook.com/mu.nian.mercy.fans/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-        <a class="pe-1" href="https://www.youtube.com/channel/UC2YUvxqaz5tfBBIwh2bmk2w" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a>
-        <a class="pe-1" href="https://line.me/R/ti/p/%40sstht" target="_blank"><i class="fab fa-line fa-2x"></i></a>
+        <span class="me-3">© <a id="sstht" href="https://www.sstht.org.tw" target="_blank">松山慈惠堂</a> All rights reserved.</span>
+        <a id="facebook" class="pe-1" href="https://www.facebook.com/mu.nian.mercy.fans/" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+        <a id="youtube" class="pe-1" href="https://www.youtube.com/channel/UC2YUvxqaz5tfBBIwh2bmk2w" target="_blank"><i class="fab fa-youtube-square fa-2x"></i></a>
+        <a id="line" class="pe-1" href="https://line.me/R/ti/p/%40sstht" target="_blank"><i class="fab fa-line fa-2x"></i></a>
       </div>
     </footer>
   </div>
@@ -557,7 +562,8 @@
       })
       gsap.to("#logoSec", {
         opacity: 0,
-        duration: 3
+        duration: 3,
+        ease: "power3.in"
       })
       gsap.from("#adultSVG", {
         scrollTrigger: {
@@ -567,9 +573,23 @@
           // markers: true,
           // scrub: true,
         },
-        y: -100,
-        duration: 2,
+        y: -100, 
+        duration: 2, 
         ease: 'bounce',
+      })
+      gsap.from("#adultTxt", {
+        scrollTrigger: {
+          trigger: "#adultTxt",
+          start: "top 80%",
+          toggleActions: "play none none none",
+          // markers: true,
+          // scrub: true,
+        },
+        scale: 0.3, 
+        rotation:45, 
+        autoAlpha: 0, 
+        duration: 2, 
+        ease: "power2",
       })
       gsap.to("#cleanSVG", {
         scrollTrigger: {
@@ -583,6 +603,20 @@
         duration: 5,
         ease: 'power3',
       })
+      gsap.from("#cleanTxt", {
+        scrollTrigger: {
+          trigger: "#cleanTxt",
+          start: "top 80%",
+          toggleActions: "play none none none",
+          // markers: true,
+          // scrub: true,
+        },
+        scale: 0.3, 
+        rotation:45, 
+        autoAlpha: 0, 
+        duration: 2, 
+        ease: "power2",
+      })
       gsap.from("#tourSVG", {
         scrollTrigger: {
           trigger: "#tourSVG",
@@ -594,6 +628,20 @@
           y: -80,
           duration: 6,
           ease: 'elastic',
+      })
+      gsap.from("#tourTxt", {
+        scrollTrigger: {
+          trigger: "#tourTxt",
+          start: "top 80%",
+          toggleActions: "play none none none",
+          // markers: true,
+          // scrub: true,
+        },
+        scale: 0.3, 
+        rotation:45, 
+        autoAlpha: 0, 
+        duration: 2, 
+        ease: "power2",
       })
       gsap.from("#arenaSVG", {
         scrollTrigger: {
@@ -607,6 +655,20 @@
         duration: 3,
         ease: 'power3',
       })
+      gsap.from("#arenaTxt", {
+        scrollTrigger: {
+          trigger: "#arenaTxt",
+          start: "top 80%",
+          toggleActions: "play none none none",
+          // markers: true,
+          // scrub: true,
+        },
+        scale: 0.3, 
+        rotation:45, 
+        autoAlpha: 0, 
+        duration: 2, 
+        ease: "power2",
+      })
       gsap.to("#danceSVG", {
         scrollTrigger: {
           trigger: "#danceSVG",
@@ -619,6 +681,32 @@
         duration: 4,
         ease: 'circ',
       })
+      gsap.from("#danceTxt", {
+        scrollTrigger: {
+          trigger: "#danceTxt",
+          start: "top 80%",
+          toggleActions: "play none none none",
+          // markers: true,
+          // scrub: true,
+        },
+        scale: 0.3, 
+        rotation:45, 
+        autoAlpha: 0, 
+        duration: 2, 
+        ease: "power2",
+      })
+      let community = gsap.timeline({
+        scrollTrigger: {
+          trigger: "#facebook",
+          start: "bottom bottom",
+          toggleActions: "play none none none",
+          // markers: true,
+          // scrub: 1,
+        }
+      })
+      community.to("#facebook", {scale: 1.5, yoyo: true, repeat: 1, ease: "none"})
+               .to("#youtube", {scale: 1.5, yoyo: true, repeat: 1, ease: "none"})
+               .to("#line", {scale: 1.5, yoyo: true, repeat: 1, ease: "none"});
     })();
   </script>
 </body>
